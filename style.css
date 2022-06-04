@@ -103,3 +103,6 @@ a{
 #contact h3 {
     display: inline;
 }
+input{
+    background: grey;
+}

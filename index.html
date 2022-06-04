@@ -8,14 +8,27 @@
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#Welcome">Home</a></li>
-        <li class="links"><a href="#Bio">Biography</a></li>
-        <li class="links"><a href="#Videos">My Videos</a></li>
-        <li class="links"><a href="#Work">Work</a></li>
-        <li class="links"><a href="#Writings">Writings</a></li>
-        <li class="links"><a href="#Contact">Contact</a></li>
+    <nav class="navbar-inverse" style="postion:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle"  data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Divyansh</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+        <li><a href="#Welcome">Home</a></li>
+        <li><a href="#Bio">Biography</a></li>
+        <li><a href="#Videos">My Videos</a></li>
+        <li><a href="#Work">Work</a></li>
+        <li><a href="#Writings">Writings</a></li>
+        <li><a href="#Contact">Contact</a></li>
     </ul>
+        </div>
+    </nav>
+    
     <section id="Welcome">
         <div class="parallax-inner"><img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg" class="profile">
             <h1></h1>
@@ -65,8 +78,18 @@
         <div class="line"></div>
         <br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.3757482590945!2d77.00755331500521!3d28.468228682482895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d178bbead51d7%3A0x8d320efe78971f31!2sANS%20residency!5e0!3m2!1sen!2sin!4v1649595215721!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br><br>
-        <a href="mailto:divyansh2422@sc1.krmangalam.com?subject=Hello"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>divyansh2422@sc1.krmangalam.com</h3></a>
-        <br><br>
+        <div class="contact_2 col-lg-6 col-md-6 col-xs-12">
+        <a href="mailto:divyansh2422@sc1.krmangalam.com?subject=Hello"> <i class="fa fa-envelope"></i>&nbsp;&nbsp;<h3>divyansh2422@sc1.krmangalam.com</h3></a></div>
+        <div class="contact_2 col-lg-6 col-md-6 col-xs-12">
+        <form>
+            <span>Name : </span>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="Divyansh" required>
+            <br><br>
+             <span>Comment : </span><input type="text" name="Comment" required>    
+             <br><br>
+            <input type="submit" value="submit" class="btn btn-success">    
+        </form>
+        </div>
+        
 </section>
 </body>
 
